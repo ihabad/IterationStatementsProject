@@ -78,10 +78,10 @@ namespace IterationStatements
 
             //start for loop here
 
-            for (int i = 199; i >= 0; i--)
+            for (int i = 199; i <= numbers.Count; i--)
             // place numbers[i] inside of the Console.WriteLine() method
             {
-                Console.WriteLine($"{numbers[199]}");
+                Console.WriteLine($"{numbers[i]}");
             }
 
             //------------End of exercise
